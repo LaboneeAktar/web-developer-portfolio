@@ -16,8 +16,8 @@
 .btn-primary {
   background-color: #fd6e0a;
   font-weight: bold;
-  font-size: 20px;
-  padding: 16px 30px;
+  font-size: 16px;
+  padding: 16px 20px;
   color: white;
   border: none;
   border-radius: 5px;
@@ -38,13 +38,14 @@
   background-repeat: no-repeat;
   background-size: 60px;
   background-position: top left;
+  margin: 30px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 0 130px;
 }
 
 .nav-title {
@@ -65,17 +66,11 @@ nav li a {
   text-decoration: none;
   font-size: 20px;
 }
-
-.side-bar {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 /* banner section */
 
 .banner {
   display: flex;
-  margin: 20px 35px 0 130px;
+  margin: 40px 0 0 130px;
   justify-content: space-between;
 }
 
@@ -84,7 +79,7 @@ nav li a {
 }
 
 .banner-subtitle {
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(71, 71, 71);
   margin: 0;
   /* padding: 0; */
@@ -94,16 +89,40 @@ nav li a {
 .banner-title {
   font-size: 50px;
   font-weight: 700;
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
   padding: 0;
 }
+.double-btn {
+  display: flex;
+  gap: 5px;
+}
 
-/* .banner-img {
-  background-image: url(../images/header_bg.png);
-  height: 350px;
-} */
+.download-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.banner-img img {
+.download-icon img {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.banner-img {
+  background-image: url("../images/header_bg.png");
   height: 350px;
-  margin-right: 0;
+}
+
+img {
+  height: 350px;
+  margin: 0 0 0 90px;
+}
+
+.banner-description {
+  margin-bottom: 20px;
 }
