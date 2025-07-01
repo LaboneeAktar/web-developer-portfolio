@@ -95,16 +95,16 @@ nav li a {
 }
 .double-btn {
   display: flex;
-  gap: 5px;
+  gap: 15px;
 }
 
-.download-icon {
+.icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.download-icon img {
+.icon img {
   height: 20px;
   width: 20px;
   margin: 0 10px 0 0;
