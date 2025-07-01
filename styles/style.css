@@ -129,7 +129,7 @@ img {
 
 /* About Section */
 .about {
-  background-color: rgb(250, 232, 219);
+  background-color: rgba(250, 232, 219, 0.6);
   border-radius: 10px;
   height: 500px;
   width: 1000px;
@@ -139,3 +139,23 @@ img {
   padding: 30px 150px 220px;
   /* border: 1px solid #474747; */
 }
+
+.about-title {
+  font-size: 30px;
+  color: rgb(24, 24, 24);
+  text-align: center;
+}
+
+.about-description {
+  font-size: 16px;
+  color: rgb(117, 117, 117);
+  text-align: center;
+}
+.border {
+  border: 1px solid rgba(24, 24, 24, 0.6);
+  margin-top: 30px;
+}
+
+/* .about-footer{
+
+} */
