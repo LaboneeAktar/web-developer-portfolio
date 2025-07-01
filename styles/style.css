@@ -126,3 +126,16 @@ img {
 .banner-description {
   margin-bottom: 20px;
 }
+
+/* About Section */
+.about {
+  background-color: rgb(250, 232, 219);
+  border-radius: 10px;
+  height: 500px;
+  width: 1000px;
+  margin: 150px 200px;
+}
+.about-details {
+  padding: 30px 150px 220px;
+  /* border: 1px solid #474747; */
+}
