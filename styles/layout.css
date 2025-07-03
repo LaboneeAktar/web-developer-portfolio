@@ -1,3 +1,18 @@
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 16px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header,
 .nav,
 .main,
